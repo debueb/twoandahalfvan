@@ -555,7 +555,7 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   height: 5rem;
-  padding-left: 3vw;
+  padding: 0;
   -webkit-transition: background .5s ease;
   -o-transition: background .5s ease;
   transition: background .5s ease;
@@ -573,9 +573,16 @@ main {
 .logo {
   font-size: 1.21363rem;
   font-weight: normal;
+  padding: 0 2rem;
   flex: 1}
+.logo:hover {
+  background: #718878;
+}
+.logo:hover img {
+  filter: invert(100%);
+}
   .logo > img {
-    max-height: calc(3.96667rem + 1vw); }
+    max-height: 5rem }
 
 .search {
   -webkit-box-ordinal-group: 3;
