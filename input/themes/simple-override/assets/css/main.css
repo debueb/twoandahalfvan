@@ -1843,11 +1843,10 @@ main {
   text-align: center;
 }
 a.post {
-  padding: 2rem 2rem 0 2rem;
+  padding: 2rem;
 }
 a.post:hover, .post:focus, .post:hover {
   background: #C4D0CC;
-  color: 999;
 }
 a.post .feed__item__excerpt {
   color: #2D4D42;
