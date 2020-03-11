@@ -161,7 +161,7 @@ h1,
   @media screen and (min-width: 70rem) {
     h1,
     .h1 {
-      font-size: 3.19534rem; } }
+      font-size: 2.5rem; } }
 
 h2,
 .h2 {
@@ -173,7 +173,7 @@ h2,
   @media screen and (min-width: 70rem) {
     h2,
     .h2 {
-      font-size: 2.46832rem; } }
+      font-size: 2rem; } }
 
 h3,
 .h3 {
@@ -1144,9 +1144,6 @@ main {
     width: 100%;
     text-align: center;
     z-index: 2; }
-    .hero__content h1, .hero__content p {
-      margin-left: 25%;;
-    }
       .hero__content h1 > sup {
         font-size: 1.06667rem;
         vertical-align: top; }
@@ -1907,4 +1904,7 @@ a.post .feed__item__excerpt {
 }
 .search__input {
   color: #C4D0CC;
+}
+.navbar .navbar__toggle {
+  background: #718878 !important;
 }
