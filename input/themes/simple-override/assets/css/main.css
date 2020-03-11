@@ -1842,7 +1842,7 @@ main {
   padding: 2rem;
   text-align: center;
 }
-.post:focus, .post:hover, a.post:hover {
+article.post:focus, article.post:hover, article.post:hover {
   background: inherit;
 }
 a.post {
@@ -1897,4 +1897,11 @@ a.post .feed__item__excerpt {
   .posts_header {
     grid-column: span 2;
   }
+}
+
+.search__overlay {
+  background: #2D4D42;
+}
+.search__input {
+  color: #C4D0CC;
 }
