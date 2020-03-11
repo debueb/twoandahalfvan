@@ -1621,7 +1621,7 @@ main {
 /* Footer ------------------------ */
 .footer {
   overflow: hidden;
-  padding: calc(3.4rem + 1vw) 6vw;
+  padding: 2rem;
   margin: calc(2.55rem + 1vw) 0 0;
   text-align: center; }
   .footer__social svg {
@@ -1640,7 +1640,7 @@ main {
     font-size: 0.67893rem;
     letter-spacing: 1px;
     text-transform: uppercase;
-    padding: 1.7rem 0; }
+    padding: 0; }
     .footer a:hover {
       color: rgba(255, 255, 255, 0.7); }
   .footer__bttop {
