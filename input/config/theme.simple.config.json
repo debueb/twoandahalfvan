@@ -2,7 +2,7 @@
     "config": {
         "authorsPostsPerPage": "1",
         "excerptLength": 45,
-        "logo": "media/website/TAAHV-FINAL-512x512-mit-Rand.png",
+        "logo": "media/website/TAAHV-FINAL-black-border-512.png",
         "postsPerPage": "6",
         "tagsPostsPerPage": "6"
     },
