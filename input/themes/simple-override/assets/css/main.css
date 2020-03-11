@@ -800,7 +800,7 @@ main {
         .navbar .navbar__menu li.has-submenu:focus,
         .navbar .navbar__menu li.has-submenu:hover {
           color: #fff;
-          background: #2d4d42 }
+          background: #718878 }
       .navbar .navbar__menu li span {
         cursor: default;
         display: block;
@@ -1144,11 +1144,14 @@ main {
     width: 100%;
     text-align: center;
     z-index: 2; }
+    .hero__content h1, .hero__content p {
+      margin-left: 25%;;
+    }
       .hero__content h1 > sup {
         font-size: 1.06667rem;
         vertical-align: top; }
       .hero__content h1 + p {
-        margin-top: calc(0.28333rem + 0.25vw); }
+        margin-top: calc(0.28333rem + 0.25vw);}
     .hero__content a {
       font-weight: bold; }
       .hero__content a {
@@ -1157,7 +1160,7 @@ main {
         -o-transition: all 0.24s ease-out;
         transition: all 0.24s ease-out; }
       .hero__content a:hover {
-        color: rgba(255, 255, 255, 0.75); }
+        color: #C4D0CC; }
       .hero__content a:focus {
         outline: none; }
   .hero__image {
@@ -1852,7 +1855,7 @@ a.post:hover, .post:focus, .post:hover {
   background: #C4D0CC;
 }
 a.post .feed__item__excerpt {
-  color: #2D4D42;
+  color: #718878;
 }
 
 @media all and (min-width: 960px) {
@@ -1900,7 +1903,7 @@ a.post .feed__item__excerpt {
 }
 
 .search__overlay {
-  background: #2D4D42;
+  background: #718878;
 }
 .search__input {
   color: #C4D0CC;
