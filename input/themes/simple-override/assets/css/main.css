@@ -1845,6 +1845,10 @@ main {
 .post {
   padding: 2rem 2rem 0 2rem;
 }
+.post:hover, .post:focus, .post:hover {
+  background: green;
+  color: 999;
+}
 
 @media all and (min-width: 960px) {
   .layout {

@@ -125,13 +125,11 @@
                   </h2>
                </header>
                <div class="featured__item__excerpt">
-                  <a href="{{url}}"
                   {{#if hasCustomExcerpt}}
                      {{{ excerpt }}}
                   {{else}}
                      <p>{{{ excerpt }}}</p>
                   {{/if}}
-                  </a>
                </div>
             </div>
          {{/each}}
@@ -140,68 +138,55 @@
          
          {{#each posts as |post key|}}
             {{#unless isFeatured}}
-            <article class="post">
-               {{#if @config.custom.frontFeaturedImage}}
-                  {{#featuredImage}}
-                     {{#if url}}
-                        {{#if @config.custom.lazyLoad}}
-                           <div class="feed__image">
-                              <a href="{{post.url}}">
-                              <img
-                                 class="lazyload"
-                                 {{#checkIf @config.custom.lazyLoadEffect '!==' "fadein" }}
-                                    src="{{urlXs}}"
-                                 {{else}}
-                                    data-src="{{url}}"
-                                 {{/checkIf}}
-                                 data-srcset="{{srcset.post}}"
-                                 data-aspectratio="{{ math width '/' height }}"
-                                 data-sizes="auto"
-                                 height="{{height}}"
-                                 width="{{width}}"
-                                 alt="{{alt}}"></a>
-                           </div>
-                        {{else}}
-                           <div class="feed__image">
-                              <a href="{{post.url}}">
-                              <img
-                                 src="{{url}}"
-                                 sizes="{{sizes.post}}"
-                                 srcset="{{srcset.post}}"
-                                 alt="{{alt}}"></a>
-                           </div>
+            <a href="{{post.url}}" class="post">
+               <article>
+                  {{#if @config.custom.frontFeaturedImage}}
+                     {{#featuredImage}}
+                        {{#if url}}
+                           {{#if @config.custom.lazyLoad}}
+                              <div class="feed__image">
+                                 <img
+                                    class="lazyload"
+                                    {{#checkIf @config.custom.lazyLoadEffect '!==' "fadein" }}
+                                       src="{{urlXs}}"
+                                    {{else}}
+                                       data-src="{{url}}"
+                                    {{/checkIf}}
+                                    data-srcset="{{srcset.post}}"
+                                    data-aspectratio="{{ math width '/' height }}"
+                                    data-sizes="auto"
+                                    height="{{height}}"
+                                    width="{{width}}"
+                                    alt="{{alt}}">
+                              </div>
+                           {{else}}
+                              <div class="feed__image">
+                                 <img
+                                    src="{{url}}"
+                                    sizes="{{sizes.post}}"
+                                    srcset="{{srcset.post}}"
+                                    alt="{{alt}}">
+                              </div>
+                           {{/if}}
                         {{/if}}
-                     {{/if}}
-                  {{/featuredImage}}
-               {{/if}}
-               <header class="wrapper">
-                  <h2>
-                     <a href="{{url}}" class="invert">
-                        {{title}}
-                     </a>
-                  </h2>
-               </header>
-               <div class="feed__item__excerpt">
-                  <a href="{{url}}"
-                  {{#if hasCustomExcerpt}}
-                     {{{ excerpt }}}
-                  {{else}}
-                     <p>{{{ excerpt }}}</p>
+                     {{/featuredImage}}
                   {{/if}}
-                  </a>
-               </div>
-            </article>
+                  <header class="wrapper">
+                     <h2>
+                           {{title}}
+                     </h2>
+                  </header>
+                  <div class="feed__item__excerpt">
+                     {{#if hasCustomExcerpt}}
+                        {{{ excerpt }}}
+                     {{else}}
+                        <p>{{{ excerpt }}}</p>
+                     {{/if}}
+                  </div>
+               </article>
+               </a>
             {{/unless}}
          {{/each}}
-      </div>
-      
-         
-
-
-         
-      <div class="feed">
-         
-         {{> pagination}}
       </div>
    </main>
 {{/checkIf}}
