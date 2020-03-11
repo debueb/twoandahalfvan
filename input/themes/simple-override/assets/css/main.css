@@ -800,7 +800,7 @@ main {
         .navbar .navbar__menu li.has-submenu:focus,
         .navbar .navbar__menu li.has-submenu:hover {
           color: #fff;
-          background: #17181E }
+          background: #0f2f24 }
       .navbar .navbar__menu li span {
         cursor: default;
         display: block;
@@ -1850,6 +1850,9 @@ a.post:hover, .post:focus, .post:hover {
 }
 a.post .feed__item__excerpt {
   color: #2D4D42;
+}
+.post:focus, .post:hover, a.post:hover {
+  background: inherit;
 }
 
 @media all and (min-width: 960px) {
