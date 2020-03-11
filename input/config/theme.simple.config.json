@@ -13,7 +13,7 @@
         "authorFeaturedImage": false,
         "authorReadMore": true,
         "backToTopButton": true,
-        "backgroundMenu": "#FFFFFF",
+        "backgroundMenu": "#2D4D42",
         "buttonBg": "#0F2F24",
         "buttonColor": "#FFFFFF",
         "commentDisqusShortname": "",
@@ -108,7 +108,7 @@
         "tagFeaturedImage": true,
         "tagReadMore": true,
         "textColor": "#2D4D42",
-        "textHero": "<h1 class=\"align-center\">Vanlife in Europe</h1>\n<p class=\"align-center\"> We write about traveling Europe in our self-built van. <br>You will find <strong>information</strong> about our camper build, <br><strong>stories</strong> on places and life hacks, <br>and <strong>inspiration</strong> from plant-based food to interesting encounters.</p>",
+        "textHero": "<h1 class=\"align-left\">Vanlife in Europe</h1>\n<p class=\"align-left\">We write about traveling Europe in our self-built van. <br>You will find <strong>information</strong> about our camper build, <br><strong>stories</strong> on places and life hacks, <br>and <strong>inspiration</strong> from plant-based food to interesting encounters.</p>",
         "uploadHero": "media/website/hero-twoandahalfvan.JPG",
         "uploadHeroAlt": "",
         "uploadHeroCaption": "Hey there, welcome! "
