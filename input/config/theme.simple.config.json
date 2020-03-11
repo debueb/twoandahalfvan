@@ -99,7 +99,7 @@
         "submenu": "auto",
         "submenuBg": "#C4D0CC",
         "submenuLinkColor": "rgba(45,77,66,0.71)",
-        "submenuLinkHoverBgMenu": "rgba(45,77,66,0.71)",
+        "submenuLinkHoverBgMenu": "#2D4D42",
         "submenuLinkHoverColor": "rgba(255,255,255,0.71)",
         "submenuWidth": "240",
         "tagAuthor": false,
