@@ -3,17 +3,6 @@
         "items": [
             {
                 "cssClass": "",
-                "id": 1582121223237,
-                "items": [],
-                "label": "Home",
-                "link": "empty",
-                "rel": "",
-                "target": "_self",
-                "title": "",
-                "type": "frontpage"
-            },
-            {
-                "cssClass": "",
                 "id": 1582127932197,
                 "items": [
                     {
