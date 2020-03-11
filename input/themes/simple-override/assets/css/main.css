@@ -555,7 +555,7 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   height: 5rem;
-  padding: 0 3vw;
+  padding-left: 3vw;
   -webkit-transition: background .5s ease;
   -o-transition: background .5s ease;
   transition: background .5s ease;
@@ -1906,5 +1906,17 @@ a.post .feed__item__excerpt {
   color: #C4D0CC;
 }
 .navbar .navbar__toggle {
+  background: #718878 !important;
+}
+
+.search__btn {
+  height: 5rem;
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  margin-left: 0;
+  padding: 0;
+}
+.search__btn:hover {
   background: #718878 !important;
 }
