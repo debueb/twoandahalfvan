@@ -98,7 +98,7 @@
         "socialYoutube": "https://www.youtube.com/twoandahalfvan/",
         "submenu": "auto",
         "submenuBg": "#C4D0CC",
-        "submenuLinkColor": "rgba(45,77,66,0.71)",
+        "submenuLinkColor": "#2D4D42",
         "submenuLinkHoverBgMenu": "#2D4D42",
         "submenuLinkHoverColor": "rgba(255,255,255,0.71)",
         "submenuWidth": "240",
