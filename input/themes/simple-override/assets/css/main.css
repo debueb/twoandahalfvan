@@ -1152,11 +1152,11 @@ main {
   text-decoration-skip-ink: auto; }
 
 .hero {
-  padding-bottom: 2rem;
   z-index: 1; }
   .hero__content {
     width: 100%;
     text-align: center;
+    padding: 3rem;
     z-index: 2; }
       .hero__content h1 > sup {
         font-size: 1.06667rem;
