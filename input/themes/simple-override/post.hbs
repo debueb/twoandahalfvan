@@ -111,7 +111,6 @@
             {{/featuredImage}}
             <header class="hero__content">
                <div class="wrapper">
-                  <p></p>
                   <h2>
                      {{title}}
                   </h2>
@@ -168,7 +167,7 @@
                   {{/if}}
                {{/if}}
 
-               {{#if @config.post.displayTags}}
+               {{!-- {{#if @config.post.displayTags}}
                   {{#if tags}}
                      <ul class="post__tag">
                         {{#each tags}}
@@ -178,7 +177,7 @@
                         {{/each}}
                      </ul>
                   {{/if}}
-               {{/if}}
+               {{/if}} --}}
 
                {{#if @config.post.displayShareButtons}}
                   <div class="post__share">
@@ -248,27 +247,12 @@
       {{#if @config.post.displayRelatedPosts}}
          {{#if ../relatedPosts}}
             <div class="post__related related">
-               <div class="wrapper">
-                  <h2 class="h5 related__title">
-                     {{ translate 'post.relatedPosts' }}
-                  </h2>
+               <center><h2 class="h5 related__title">
+                  Related Posts
+               </h2></center>
+               <div class="posts">
                   {{#each ../relatedPosts}}
-                     <article class="related__item">
-                        <div class="feed__meta">
-                           <time datetime="{{date createdAt 'YYYY-MM-DDTHH:mm'}}" class="feed__date">
-                              {{#checkIf @config.custom.formatDate '!=' 'custom'}}
-                                 {{date createdAt @config.custom.formatDate}}
-                              {{else}}
-                                 {{date createdAt @config.custom.formatDateCustom}}
-                              {{/checkIf}}
-                           </time>
-                        </div>
-                        <h3 class="h1">
-                           <a href="{{url}}" class="invert">
-                              {{title}}
-                            </a>
-                        </h3>
-                     </article>
+                     {{> post_teaser}}
                   {{/each}}
                </div>
             </div>
