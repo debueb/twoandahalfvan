@@ -127,7 +127,7 @@
         "github": {
             "branch": "master",
             "parallelOperations": 1,
-            "repo": "twoandahalfvan",
+            "repo": "twoandahalfvan.github.io",
             "server": "api.github.com",
             "token": "publii-gh-token twoandahalfvan",
             "user": "twoandahalfvan"
@@ -172,14 +172,14 @@
         "username": ""
     },
     "displayName": "twoandahalfvan",
-    "domain": "https://twoandahalfvan.github.io/twoandahalfvan",
+    "domain": "https://twoandahalfvan.github.io",
     "language": "en",
     "logo": {
         "color": 1,
         "icon": "web-ice-cream"
     },
     "name": "twoandahalfvan",
-    "syncDate": 1584174983228,
+    "syncDate": 1584205118667,
     "synced": "synced",
     "theme": "simple"
 }
