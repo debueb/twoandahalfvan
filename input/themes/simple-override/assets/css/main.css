@@ -372,11 +372,6 @@ button {
     [type=submit],
     button {
       width: 100%; } }
-  @media all and (max-width: 37.4375em) {
-    .btn, [type=button],
-    [type=submit],
-    button {
-      margin-bottom: 0.56667rem; } }
   .btn:hover, :hover[type=button],
   :hover[type=submit],
   button:hover, .btn:active, :active[type=button],
@@ -700,7 +695,7 @@ main {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      height: 4.4rem;
+      height: 5rem;
       -webkit-box-pack: justify;
       -ms-flex-pack: justify;
       justify-content: space-between;
@@ -1083,7 +1078,7 @@ main {
       .navbar_mobile_sidebar .navbar__menu li .is-separator {
         color: #17181E;
         display: block;
-        padding: 10px;
+        padding: 20px;
         position: relative; }
         .navbar_mobile_sidebar .navbar__menu li a:active, .navbar_mobile_sidebar .navbar__menu li a:focus, .navbar_mobile_sidebar .navbar__menu li a:hover,
         .navbar_mobile_sidebar .navbar__menu li .is-separator:active,
@@ -1155,6 +1150,8 @@ main {
   z-index: 1; }
   .hero__content {
     width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
     text-align: center;
     padding: 2rem;
     z-index: 2; }
@@ -1532,13 +1529,7 @@ main {
 
 .author__avatar {
   border-radius: 50%;
-  height: 3rem;
-  margin-bottom: calc(-1.41667rem - 1vw);
-  width: 3rem; }
-  @media all and (min-width: 37.5em) {
-    .author__avatar {
-      height: 4rem;
-      width: 4rem; } }
+  height: 10rem; }
 
 .search-page__form {
   -webkit-box-align: start;
@@ -1629,7 +1620,7 @@ main {
 .footer {
   overflow: hidden;
   padding: 2rem;
-  margin: calc(2.55rem + 1vw) 0 0;
+  margin: 0;
   text-align: center; }
   .footer__social svg {
     fill: #FFFFFF;
@@ -1922,4 +1913,8 @@ a.post .feed__item__excerpt {
 
 .navbar__submenu li:last-child {
   border-bottom: 0;
+}
+
+::placeholder {
+  color: #c4d0cc;
 }

@@ -93,28 +93,6 @@
                         "target": "_self",
                         "title": "",
                         "type": "tag"
-                    },
-                    {
-                        "cssClass": "",
-                        "id": 1582121709291,
-                        "items": [],
-                        "label": "Portugal",
-                        "link": 6,
-                        "rel": "",
-                        "target": "_self",
-                        "title": "",
-                        "type": "tag"
-                    },
-                    {
-                        "cssClass": "",
-                        "id": 1583004684773,
-                        "items": [],
-                        "label": "Encounters",
-                        "link": 3,
-                        "rel": "",
-                        "target": "_self",
-                        "title": "",
-                        "type": "tag"
                     }
                 ],
                 "label": "Travel Stories",

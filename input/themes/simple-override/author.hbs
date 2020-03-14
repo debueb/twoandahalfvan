@@ -1,7 +1,7 @@
 {{> head}}
 {{> top}}
 <main>
-   <div class="hero">
+<div class="hero">
       {{#checkIfAll @config.custom.uploadHero @config.custom.displayHeroImage}}
          {{#if @config.custom.uploadHeroCaption}}
             {{#if @config.custom.lazyLoad}}
@@ -35,7 +35,7 @@
             {{#if @config.custom.lazyLoad}}
                <div class="hero__image">
                   <img
-                     class="hero__image-img  lazyload"
+                     class="hero__image-img lazyload"
                      {{#checkIf @config.custom.lazyLoadEffect '!==' "fadein" }}
                         src="{{@config.custom.uploadHero}}"
                      {{else}}
@@ -57,17 +57,18 @@
       {{/checkIfAll}}
       <header class="hero__content">
          <div class="wrapper">
-            {{#tag}}
-               <h2>
-                  {{name}}
-               </h2>
-               <br>
-               {{#if description}}
-                  <p>
-                     {{description}}
-                  </p>
+            {{#author}}
+               {{#if avatar}}
+                  <img src="{{avatar}}" class="author__avatar" alt="{{name}}">
                {{/if}}
-            {{/tag}}
+               <br>
+               <h1>
+                  {{name}}
+               </h1>
+               {{#if description}}
+                  <p>{{description}}</p>
+               {{/if}}
+            {{/author}}
          </div>
       </header>
    </div>
@@ -75,7 +76,7 @@
       {{#each posts}}
          {{> post_teaser}}
       {{/each}}
+      {{> pagination}}
    </div>
-   {{> pagination}}
 </main>
 {{> footer}}

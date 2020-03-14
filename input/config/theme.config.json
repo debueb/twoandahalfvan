@@ -1,10 +1,10 @@
 {
     "config": {
-        "authorsPostsPerPage": "1",
-        "excerptLength": 45,
+        "authorsPostsPerPage": "50",
+        "excerptLength": "30",
         "logo": "media/website/TAAHV-FINAL-black-border-512.png",
         "postsPerPage": "6",
-        "tagsPostsPerPage": "6"
+        "tagsPostsPerPage": "50"
     },
     "customConfig": {
         "authorAuthor": false,
