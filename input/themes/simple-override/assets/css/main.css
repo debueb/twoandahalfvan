@@ -148,7 +148,6 @@ h6 {
   -ms-hyphens: manual;
   hyphens: manual;
   line-height: 1.2;
-  margin-top: calc(1rem + 1vw);
   text-transform: none; }
 
 h1,
@@ -818,6 +817,7 @@ main {
   .navbar .has-submenu:focus > .navbar__submenu,
   .navbar .has-submenu:hover > .navbar__submenu {
     left: 0;
+    width: 100%;
     opacity: 1;
     z-index: 1000;
     -webkit-transform: scale(1);
@@ -1277,14 +1277,7 @@ main {
   .post__meta--author {
     border-top: 1px solid rgba(255, 255, 255, 0.3);
     font-style: normal;
-    display: inline-block;
-    margin-top: 1.7rem;
-    padding-top: 1.41667rem; }
-    @media all and (min-width: 37.5em) {
-      .post__meta--author {
-        margin-top: 2.83333rem;
-        padding-top: 1.7rem; } }
-
+    display: inline-block; }
 .post__author-thumb {
   border-radius: 50%;
   height: 1.7rem;
@@ -1944,4 +1937,22 @@ a.post .feed__item__excerpt {
 
 .navbar__submenu li:last-child {
   border-bottom: 0;
+}
+.posts {
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: repeat(1, [col] 1fr ) ;
+  background-color: #fff;
+}
+
+@media all and (min-width: 960px) {
+  .posts {
+    grid-template-columns: repeat(6, [col] 1fr ) ;
+  }
+}
+
+@media all and (min-width: 640px) and (max-width: 959px){
+  .posts {
+    grid-template-columns: repeat(2, [col] 1fr ) ;
+  }
 }
