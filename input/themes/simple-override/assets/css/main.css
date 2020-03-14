@@ -1845,6 +1845,7 @@ a.featured_text:hover, a.featured_text:active, a.featured_text:visited {
   grid-gap: 0;
   grid-template-columns: repeat(1, [col] 1fr ) ;
   background-color: #fff;
+  border: 1px solid #eee;
 }
 .posts_header {
   padding: 3rem 0 1rem 0;;
@@ -1855,6 +1856,7 @@ article.post:focus, article.post:hover, article.post:hover {
 }
 a.post {
   padding: 2rem;
+  border: 1px solid #eee;
 }
 a.post:hover, .post:focus, .post:hover {
   background: #C4D0CC;
