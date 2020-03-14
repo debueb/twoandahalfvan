@@ -1859,7 +1859,7 @@ a.post:hover, .post:focus, .post:hover {
   background: #C4D0CC;
 }
 a.post .feed__item__excerpt {
-  color: #718878;
+  color: #2D4D42;
 }
 
 @media all and (min-width: 960px) {
