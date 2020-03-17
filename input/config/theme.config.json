@@ -119,7 +119,7 @@
         "displayComments": 0,
         "displayDate": 1,
         "displayLastUpdatedDate": "0",
-        "displayPostNavigation": 1,
+        "displayPostNavigation": "0",
         "displayRelatedPosts": 1,
         "displayShareButtons": "0",
         "displayTags": 1

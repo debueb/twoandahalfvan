@@ -3,13 +3,13 @@
         "items": [
             {
                 "cssClass": "",
-                "id": 1582127932197,
+                "id": 1584477431828,
                 "items": [
                     {
                         "cssClass": "",
                         "id": 1582717835474,
                         "items": [],
-                        "label": "Our Van Tour",
+                        "label": "Van Tour",
                         "link": 3,
                         "rel": "",
                         "target": "_self",
@@ -18,32 +18,10 @@
                     },
                     {
                         "cssClass": "",
-                        "id": 1584200572523,
+                        "id": 1584483691407,
                         "items": [],
-                        "label": "Choosing the right van",
-                        "link": 17,
-                        "rel": "",
-                        "target": "_self",
-                        "title": "",
-                        "type": "post"
-                    },
-                    {
-                        "cssClass": "",
-                        "id": 1582717659564,
-                        "items": [],
-                        "label": "Planning your layout",
-                        "link": 4,
-                        "rel": "",
-                        "target": "_self",
-                        "title": "",
-                        "type": "post"
-                    },
-                    {
-                        "cssClass": "",
-                        "id": 1584202595201,
-                        "items": [],
-                        "label": "DIY Lithium battery",
-                        "link": 18,
+                        "label": "Layout",
+                        "link": 21,
                         "rel": "",
                         "target": "_self",
                         "title": "",
@@ -59,14 +37,36 @@
                         "target": "_self",
                         "title": "",
                         "type": "tag"
+                    },
+                    {
+                        "cssClass": "",
+                        "id": 1584471497584,
+                        "items": [],
+                        "label": "FAQ",
+                        "link": 19,
+                        "rel": "",
+                        "target": "_self",
+                        "title": "",
+                        "type": "post"
                     }
                 ],
-                "label": "Van Build",
+                "label": "Our Van",
                 "link": "",
                 "rel": "",
                 "target": "_self",
                 "title": "",
                 "type": "separator"
+            },
+            {
+                "cssClass": "",
+                "id": 1582127932197,
+                "items": [],
+                "label": "Van Build Tips",
+                "link": 7,
+                "rel": "",
+                "target": "_self",
+                "title": "",
+                "type": "tag"
             },
             {
                 "cssClass": "",
