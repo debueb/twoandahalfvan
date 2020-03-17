@@ -1809,6 +1809,11 @@ main {
   margin-top: 20px;
 }
 
+.feed__image img {
+  height: 300px;
+  object-fit: cover;
+}
+
 .featured_posts {
   display: grid;
   grid-gap: 0;
