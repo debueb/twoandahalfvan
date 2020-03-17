@@ -1849,9 +1849,6 @@ article.post:focus, article.post:hover, article.post:hover {
 }
 a.post {
   padding: 1rem;
-  border-left: 1px solid #eee;
-  border-right: 1px solid #eee;
-  border-bottom: 1px solid #eee;
 }
 a.post:hover, .post:focus, .post:hover {
   background: #C4D0CC;
