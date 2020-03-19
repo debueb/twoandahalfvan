@@ -117,6 +117,7 @@
                   {{#if @config.post.displayAuthor}}
                      <div class="post__meta post__meta--author">
                         {{#author}}
+                           <a href="{{url}}" class="feed__author invert">
                            {{#if avatar}}                             
                               {{#if @config.custom.lazyLoad}}
                                  <img class="lazyload post__author-thumb" data-src="{{avatar}}" alt="{{name}}">
@@ -124,7 +125,8 @@
                                  <img src="{{avatar}}" alt="{{name}}" class="post__author-thumb">
                               {{/if}}
                            {{/if}}
-                           <a href="{{url}}" class="feed__author invert">{{name}}</a>
+                           {{name}}
+                           </a>
                         {{/author}}
                         {{#if @config.post.displayDate}}
                         <span class="post__meta">
