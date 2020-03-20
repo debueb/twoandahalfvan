@@ -2,7 +2,7 @@
     "config": {
         "authorsPostsPerPage": "50",
         "excerptLength": "30",
-        "logo": "media/website/TAAHV-FINAL-black-border-512.png",
+        "logo": "media/website/logo-transparent-mit-rand-512px.png",
         "postsPerPage": "6",
         "tagsPostsPerPage": "50"
     },
@@ -21,7 +21,7 @@
         "displayHeroImage": false,
         "faviconExtension": "image/png",
         "faviconUpload": "media/website/Logo-twoandahalfvan.png",
-        "fontFamily": "font-pair-0",
+        "fontFamily": "font-pair-5",
         "fontH1Transform": "capitalize",
         "footerBg": "#718878",
         "footerIconColor": "#FFFFFF",
@@ -76,7 +76,7 @@
         "mobilemenuExpandableSubmenus": true,
         "pageWidth": "40rem",
         "primaryColor": "#DED6D3",
-        "search": true,
+        "search": false,
         "searchId": "",
         "searchParam": "q",
         "shareBuffer": false,
@@ -122,7 +122,7 @@
         "displayPostNavigation": "0",
         "displayRelatedPosts": 1,
         "displayShareButtons": "0",
-        "displayTags": 1
+        "displayTags": "0"
     },
     "defaultTemplates": {
         "post": ""
