@@ -93,7 +93,7 @@
         "postsListingOrder": "DESC",
         "postsListingOrderBy": "created_at",
         "relatedPostsCriteria": "tags",
-        "relatedPostsIncludeAllPosts": true,
+        "relatedPostsIncludeAllPosts": false,
         "relatedPostsOrder": "default",
         "searchMetaDescription": "",
         "searchMetaTitle": "Search",
@@ -129,7 +129,7 @@
             "parallelOperations": 1,
             "repo": "twoandahalfvan.github.io",
             "server": "api.github.com",
-            "token": "publii-gh-token twoandahalfvan",
+            "token": "",
             "user": "twoandahalfvan"
         },
         "gitlab": {
