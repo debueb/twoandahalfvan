@@ -541,6 +541,7 @@ textarea {
 
 .top {
   position: fixed;
+  border-bottom: 1px solid #eee;
   top: 0;
   left: 0;
   background: #fff;
@@ -1940,10 +1941,14 @@ a.post .feed__item__excerpt {
 }
 
 .ac {
-  margin-top: 10px;
-  border: 1px solid #ddd;
+  border-top: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
   background-color: #fff;
   box-sizing: border-box;
+}
+.ac:last-of-type{
+  border-bottom: 1px solid #eee;
 }
 .ac > .ac-q {
   padding: 20px;
