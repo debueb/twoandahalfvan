@@ -137,6 +137,12 @@
                {{/unless}}
             {{/each}}
          </div>
+         <div class="posts_header instagram_header">
+            <svg>
+               <use xlink:href="{{@website.assetsUrl}}/svg/svg-map.svg#instagram"/>
+            </svg>
+            <div>@twoandahalfvan</div>
+         </div>
          <div id="instagram"></div>
    </main>
    <script src="{{js "InstagramFeed.min.js"}}"></script>
@@ -145,8 +151,8 @@
         new InstagramFeed({
             'username': 'twoandahalfvan',
             'container': document.getElementById("instagram"),
-            'display_profile': true,
-            'display_biography': true,
+            'display_profile': false,
+            'display_biography': false,
             'display_gallery': true,
             'callback': null,
             'styling': true,
