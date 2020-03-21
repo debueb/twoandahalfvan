@@ -129,7 +129,7 @@
             "parallelOperations": 1,
             "repo": "twoandahalfvan.github.io",
             "server": "api.github.com",
-            "token": "",
+            "token": "publii-gh-token twoandahalfvan",
             "user": "twoandahalfvan"
         },
         "gitlab": {
@@ -179,7 +179,7 @@
         "icon": "web-ice-cream"
     },
     "name": "twoandahalfvan",
-    "syncDate": 1584649593350,
+    "syncDate": 1584798927951,
     "synced": "synced",
     "theme": "simple"
 }
