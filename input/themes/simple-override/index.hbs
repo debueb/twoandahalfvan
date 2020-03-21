@@ -138,10 +138,14 @@
             {{/each}}
          </div>
          <div class="posts_header instagram_header">
-            <svg>
-               <use xlink:href="{{@website.assetsUrl}}/svg/svg-map.svg#instagram"/>
-            </svg>
-            <div>@twoandahalfvan</div>
+            <div>
+               <a href="{{@config.custom.socialInstagram}}">
+                  <svg>
+                     <use xlink:href="{{@website.assetsUrl}}/svg/svg-map.svg#instagram"/>
+                  </svg>
+               </a>
+            </div>
+            <div><a href="{{@config.custom.socialInstagram}}">@twoandahalfvan</a></div>
          </div>
          <div id="instagram"></div>
    </main>
