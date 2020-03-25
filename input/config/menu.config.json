@@ -104,6 +104,17 @@
                         "target": "_self",
                         "title": "",
                         "type": "post"
+                    },
+                    {
+                        "cssClass": "",
+                        "id": 1585172517476,
+                        "items": [],
+                        "label": "How to secure your van",
+                        "link": 26,
+                        "rel": "",
+                        "target": "_self",
+                        "title": "",
+                        "type": "post"
                     }
                 ],
                 "label": "Van Build Tips",
