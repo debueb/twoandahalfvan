@@ -47,16 +47,11 @@
             "behaviour": "badge",
             "behaviourLink": "#cookie-settings",
             "enabled": true,
-            "groups": [
-                {
-                    "id": "-",
-                    "name": "Required"
-                }
-            ],
+            "groups": [],
             "popupDesc": "Our website may set cookies for certain functionality.",
             "popupTitlePrimary": "This website may use cookies",
             "readMoreLinkLabel": "Privacy Policy",
-            "saveButtonLabel": "OK"
+            "saveButtonLabel": "I Agree"
         },
         "hiddenPostsListingOrder": "DESC",
         "hiddenPostsListingOrderBy": "created_at",
