@@ -47,11 +47,20 @@
             "behaviour": "badge",
             "behaviourLink": "#cookie-settings",
             "enabled": true,
-            "groups": [],
-            "popupDesc": "Our website may set cookies for certain functionality.",
-            "popupTitlePrimary": "This website may use cookies",
+            "groups": [
+                {
+                    "id": "-",
+                    "name": "Necessary"
+                },
+                {
+                    "id": "analytical",
+                    "name": "Analytical"
+                }
+            ],
+            "popupDesc": "This website uses cookies for certain functionality.",
+            "popupTitlePrimary": "This website uses cookies",
             "readMoreLinkLabel": "Privacy Policy",
-            "saveButtonLabel": "I Agree"
+            "saveButtonLabel": "Allow Selected"
         },
         "hiddenPostsListingOrder": "DESC",
         "hiddenPostsListingOrderBy": "created_at",
@@ -80,17 +89,17 @@
         "relatedPostsOrder": "default",
         "searchMetaDescription": "",
         "searchMetaTitle": "Search",
-        "sitemapAddAuthors": 1,
+        "sitemapAddAuthors": false,
         "sitemapAddExternalImages": 0,
         "sitemapAddHomepage": 1,
         "sitemapAddTags": 1,
         "sitemapEnabled": 1,
-        "sitemapExcludedFiles": "",
+        "sitemapExcludedFiles": "about-us",
         "tagMetaDescription": "",
         "tagMetaTitle": "%tagname - %sitename",
         "tagNoIndexPagination": false,
         "tagNoPagination": false,
-        "twitterCardsEnabled": 1,
+        "twitterCardsEnabled": false,
         "twitterCardsType": "summary",
         "twitterUsername": "",
         "urls": {

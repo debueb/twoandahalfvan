@@ -121,14 +121,46 @@
           {{/checkIf}}
         {{/checkIf}} 		
         {{{@headCustomCode}}}
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161992053-1"></script>
         <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+            document.addEventListener("DOMContentLoaded", () => {
+                if (!localStorage.getItem('publii-gdpr-allowed-cookies')){
+                    document.getElementsByClassName('cookie-popup')[0].style.padding = '0 2rem 2rem 2rem';
+                    let saveBtn = document.getElementsByClassName('cookie-popup__save')[0];
+                    saveBtn.style.backgroundColor = '#ccc';
+                    let saveAllBtn = document.createElement("BUTTON");
+                    saveAllBtn.innerHTML = "Allow All";
+                    saveAllBtn.onclick = (event) => {
+                        let checkboxes = document.querySelectorAll('input[type=checkbox]');
+                        checkboxes.forEach((cb) => {
+                            cb.checked = true;
+                        })
+                        saveBtn.click();
+                        document.getElementsByClassName('cookie-popup')[0].style.display = 'none';
+                        let script = document.createElement('script');
+                        script.src = 'https://www.googletagmanager.com/gtag/js?id=UA-161992053-1';
+                        script.onload = () => {
+                            window.dataLayer = window.dataLayer || [];
+                            function gtag(){dataLayer.push(arguments);}
+                            gtag('js', new Date());
 
-        gtag('config', 'UA-161992053-1');
+                            gtag('config', 'UA-161992053-1');
+                        }
+                        document.head.append(script);
+                        event.preventDefault();
+                        return false;
+                    };
+                    document.getElementsByClassName('cookie-popup__save-wrapper')[0].insertBefore(saveAllBtn, saveBtn);
+                }
+            });
+        </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script type="{{ gdprScriptBlocker "analytical" }}" async src="https://www.googletagmanager.com/gtag/js?id=UA-161992053-1"></script>
+        <script type="{{ gdprScriptBlocker "analytical" }}"}>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-161992053-1');
         </script>
     </head>
     <body>
