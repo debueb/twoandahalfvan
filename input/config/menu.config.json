@@ -29,6 +29,17 @@
                     },
                     {
                         "cssClass": "",
+                        "id": 1588617198073,
+                        "items": [],
+                        "label": "Solar Setup",
+                        "link": 29,
+                        "rel": "",
+                        "target": "_self",
+                        "title": "",
+                        "type": "post"
+                    },
+                    {
+                        "cssClass": "",
                         "id": 1582717971621,
                         "items": [],
                         "label": "Shopping List",
