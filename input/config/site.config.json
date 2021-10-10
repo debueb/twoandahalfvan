@@ -14,7 +14,7 @@
         "ampShareTumblr": 1,
         "ampShareTwitter": 1,
         "ampShareWhatsapp": 1,
-        "authorMetaDescription": "One of the two authors writing for twoandahalfvan.eu.",
+        "authorMetaDescription": "One of the two authors writing for this site.",
         "authorMetaTitle": "%authorname - Author on %sitename",
         "authorNoIndexPagination": true,
         "authorNoPagination": true,
@@ -164,7 +164,7 @@
         "username": ""
     },
     "displayName": "twoandahalfvan",
-    "domain": "https://twoandahalfvan.eu",
+    "domain": "https://twoandahalfvan.github.io",
     "language": "en",
     "logo": {
         "color": 1,
